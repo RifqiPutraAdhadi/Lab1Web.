@@ -43,3 +43,21 @@ Outputnya:
 
 <img width="479" alt="LabHtml14" src="https://github.com/user-attachments/assets/37a982cb-a8a7-48ae-8446-31b57596e4a8">
 
+Pertanyaan:
+
+1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
+2. Apa perbedaan dari tag p dengan tag br, berikan penjelasannya!
+3. Apa perbedaan atribut title dan alt pada tag <img>, berikan penjelasannya!
+4. Untuk mengatur ukuran gambar, digunakan atribut width dan height, Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannyal
+5. Pada link tambahkan atribut target dengan nilai atribut bervariasi (blank, self parent), apa yang terjadi pada masing-masing nilai antribut tersebut?
+
+Jawaban:
+
+1. Tidak ada error
+2.  Tag P digunakan untuk membuat paragraf. Saat menggunakan tag P browser akan membuat jarak vertikal sebelum dan sesudah paragraf sedangkan tag br digunakan untuk membuat baris baru tanpa memulai paragraf baru. Tag ini tidak memiliki efek seperti jarak vertikal tambahan
+3. atribut title digunakan untuk memberikan informasi tambahan tentang gambar yang akan ditampilkan sebagai tooltip ketika kita mengarahkan kursor ke gambar tersebut sedangkan atribut alt digunakan untuk menyediakan deskripsi gambar yang akan ditampilkan jika gambar gagal dimuat
+4. Agar gambar tetap seimbang atau proporsional, sebaiknya hanya satu atribut yang digunakan, kecuali jika sudah memastikan bahwa kedua atribut tersebut diatur dengan proporsi yang sesuai. Jika kedua atribut diisi dengan nilai yang salah, gambar bisa tampak tidak simetris. Saat kita hanya mengisi satu atribut, browser akan otomatis menghitung ukuran lainnya untuk menjaga proporsi gambar.
+5. target="_blank": Membuka link di tab atau jendela baru.
+   
+target="_self": Membuka link di tab yang sama (ini adalah nilai default)
+target="_parent": Membuka link di frame induk atau tab induk jika halaman sedang ditampilkan di dalam iframe. Jika tidak ada iframe, perilakunya sama seperti target="_self".
